@@ -7,54 +7,71 @@
 % This file uses the resume document class (res.cls)
 
 \documentclass[margin]{res}
-%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
 %\usepackage{newcent}   % uses new century schoolbook postscript font
 \topmargin=-0.5in  % start text higher on the page
 \setlength{\textheight}{10in} % increase text height to fit resume on 1 page
 \begin{document}
 \name{Corbin Souffrant}
 
-\address{ 607 E White St Apt. C33, Champaign, IL 61820 \\ (812) 381-3984 }
+\address{ 507 W Green St. Apt. B \\ Urbana IL 61801 \\ souffra2@illinois.edu \\ (812) 381-3984
+  }
 
 
 \begin{resume}
 
 \section{EDUCATION}       University of Illinois Urbana-Champaign \\
                 Computer Science Engineering B.S., expected May 2014 \\
-                G.P.A. 3.17/4.0
+                G.P.A. 3.28/4.0
 
                 \begin{ncolumn}{2}
                 {\bf Relevant Courses} \\
                 CS461 - Computer Security I & CS460 - Computer Security Lab \\
                 CS498SH - Malware Analysis Lab & CS498LA - Undergraduate Research Lab \\
-                CS598MAN - Applied Cryptography & CS598MCC - Network Security \\
-                CS591RHC - Security Reading Group \\
+                CS598MAN - Applied Cryptography & CS467 - Social
+                Visualization \\
+                CS591RHC - Security Reading Group & CS598MCC - Network Security \\
 		\end{ncolumn}
 
 \section{SKILLS}
 \normalsize{\section{Security}}
                  \begin{itemize} \itemsep -2pt
-                 \item Static and Dynamic Analysis: IDAPro, OllyDBG, GDB, Wireshark
+                 \item Static and Dynamic Analysis: IDAPro, OllyDBG,
+                   GDB, Wireshark
+                 \item Vulnerability Discovery: Fuzzer Development,
+                   Source Code Auditing, Testing Framework Design
                  \item Malware Analysis: Unpacking techniques,
                      Anti-debugging + Anti-Reversing removal
-                 \item Forensics: Autopsy, Votality,
-                   Scalpel, nmap
                  \end{itemize}
-\normalsize{\section{Programming Languages and Libraries}}
+\normalsize{\section{Languages and Libraries}}
 	           \begin{itemize} \itemsep -2pt % reduce space between items
-                   \item C/C++, Python, x86 + MIPS assembly, Java
-                   \item ROS (Robot Operating System), OpenCV
+                   \item C/C++, Python, x86, MIPS, Java
+                   \item ROS (Robot Operating System), OpenCV, Android
                    \end{itemize}
 
-
-\section{EXPERIENCE}
+\section{WORK EXPERIENCE}
 \begin{tabular}{p{3in} r} % setup 2 columns, first
 					    % is 3 inches wide
-                  Raytheon, Annapolis Junction, MD &  Summer 13
+                  University of Illinois &  Fall 13
                   \end{tabular}
                    \begin{itemize} \itemsep -2pt % \item[] prevents a bullet from appearing
-                    \item Networks and Communications team
-                    \item Vulnerability Research and Development Intern
+                     \item Engineering Learning Assistant
+                     \item Helped encourage freshmen in Computer
+                       Science to get the most out of their college
+                       education.  Designed and Presented lectures as
+                       well as acting as a mentor for the students.
+		   \end{itemize}
+\begin{tabular}{p{3in} r} % setup 2 columns, first
+					    % is 3 inches wide
+                  Raytheon SIGOVS &  Summer 13
+                  \end{tabular}
+                   \begin{itemize} \itemsep -2pt % \item[] prevents a bullet from appearing
+                    \item Vulnerability Research and Development
+                    \item Vulnierability Discovery using a variety of
+                      methods.  Developed a smart fuzzer and setup a
+                      testing framework.  Found bugs via source code
+                      auditing as well.  Worked with browser security
+                      and applications on both x86 and ARM architectures.
 		   \end{itemize}
 		 \begin{tabular}{p{3in} r}
                   University of Illinois &  Spring - Summer 12
@@ -62,11 +79,15 @@
 		  \begin{itemize} \itemsep -2pt
                    \item Worked with Professor Sam King to design
                      and implement an application framework for
-                     general purpose robots.
+                     general purpose robots.  This involved developing
+                     an API to communicate with the robot via a web
+                     and android application.  Also wrote applications
+                     in python and C++.
                    \item Presented a poster for
                      the research at a research symposium in Siebel in
                      Spring 2012
                   \end{itemize}
+
 \section{PROJECTS}
 \begin{tabular}{p{3in} r} % setup 2 columns, first
 Boston Bombing Spam/Malware Prevention & Spring 13
@@ -100,12 +121,11 @@ Android Telemetry for a Vehicle & Fall 12 - Spring 13
 \item Developed an android application that communicated with an
   Arduino device connected to a car engine.  This provided real-time
   feedback on car speed, distance traveled, and time elapsed for the
-  UIUC Ecoillini Shell Marathon Car
+  Ecoillini Shell Marathon Car
 \end{itemize}
+
 \section{ACTIVITIES}
 \begin{itemize} \itemsep -2pt
-\item Ebay Hackathon 2013, won best use of Ebay API for a
-  visualization of sales
 \item CSAW CTF 2012, placed 18th for qualifying teams with the ACM CTF Team
 \item ACM Special Interest Group for Security: Member since Spring 2012
 \item Undergraduate Computer Science Research Symposium 2012 Poster Presentation
