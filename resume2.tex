@@ -1,0 +1,246 @@
+\documentclass[letterpaper,11pt]{article}
+\pagestyle{empty}
+
+\usepackage{latexsym}
+\usepackage{resume2}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+
+\definecolor{mygrey}{gray}{.85}
+
+\textheight=9.0in
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{0.375in}
+\addtolength{\textwidth}{0.5in}
+\addtolength{\topmargin}{-.375in}
+\addtolength{\textheight}{0.75in}
+
+\newcommand{\resitem}[1]{\item #1 \vspace{-5pt}}
+\newcommand{\resbreak}{\vspace{0.1in}}
+
+\newcommand{\resheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+
+\newcommand{\resheader}
+{
+  \center{\textbf{\Large Corbin Souffrant}}
+  \begin{tabular*}{7in}{l@{\extracolsep{\fill}}lr}
+  {\footnotesize \underline{Address}}  & & {\footnotesize \underline{Contact}}\\
+  {\footnotesize 507 E Green St. Apt. B} & & {\footnotesize souffra2@illinois.edu}\\
+  {\footnotesize Urbana, IL 61801} & & {\footnotesize 812-381-3984}\\
+  \end{tabular*}
+}
+
+\newcommand{\resexperience}[4]
+{
+  \begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & \footnotesize{#2}
+  \end{tabular*}
+  \begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+    \textit{#3} & \footnotesize{#4}
+  \end{tabular*}
+  \vspace{-8pt}
+}
+
+\newcommand{\resskill}[2]
+{
+  \footnotesize{\textbf{#1}}: \footnotesize{#2}\\
+}
+
+\newcommand{\resrandom}[3]
+{
+  \begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & \footnotesize{#3}\\
+  \end{tabular*}
+  \begin{tabular*}{6.5in}{l}
+    #2
+  \end{tabular*}
+}
+
+\begin{document}
+\resheader
+
+\resheading{Objective}
+\footnotesize{Seeking a full time position after May 2014
+graduation. I am considering a Master's degree, in which case I'm
+looking for an internship.  Willing to work in the areas of Computer
+Security Research, Vulnerability Discovery, and Malware
+Analysis.}
+
+\resheading{Education}
+\begin{itemize}
+\item %University of Illinois at Urbana-Champaign
+  \begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+    \textbf{University of Illinois at Urbana-Champaign} &
+    \footnotesize{Expected Graduation: May 2014}\\
+  \end{tabular*}
+  \begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+    \small{\textit{Bachelor of Science in Computer Science}} & \footnotesize{\textbf{GPA: 3.28/4.00}}
+  \end{tabular*}
+  \footnotesize{Relevant Courses: Computer Security, Computer Security
+  Lab, Malware Analysis Lab, Undergraduate Research Lab, Applied
+  Cryptography, Social Visualization, Security Reading Group, Network
+  Security, Digital Forensics Lab}
+\end{itemize}
+
+\resheading{Experience}
+\begin{itemize}
+\item
+  \resexperience{University of Illinois}{Urbana, IL}{Researcher}{Fall 2013}
+  {\footnotesize
+    \begin{itemize}
+      \resitem{ Worked with both Professor Darko Marinov
+                       and Professor Matthew Caesar on a new project
+                       that aimed to detect incompatibilities between
+                       code sources.  Involves analyzing previous
+                       literature in the field and coming up with a
+                       model to support our project.}
+    \end{itemize}
+  }
+\item
+  \resexperience{University of Illinois}{Urbana, IL}{Engineering
+    Learning Assistant}{Fall 2013}
+  {\footnotesize
+    \begin{itemize}
+      \resitem{ Helped encourage freshmen in Computer
+                       Science to get the most out of their college
+                       education.  Designed and presented lectures as
+                       well as acting as a mentor for the students.}
+    \end{itemize}
+  }
+\item
+  \resexperience{Raytheon SIGOVS}{Annapolis Junction,
+    MD}{Vulnerability Research and Development Intern}{Summer 2013}
+  {\footnotesize
+    \begin{itemize}
+      \resitem{ Vulnerability Discovery using a variety of
+                      methods.  Developed a smart fuzzer and setup a
+                      testing framework.  Found bugs via source code
+                      auditing.}
+      \resitem{Worked with browser security
+                      and applications on both x86 and ARM architectures.}
+    \end{itemize}
+  }
+\item
+  \resexperience{University of Illinois}{Urbana, IL}{Researcher}{Spring 2012 - Fall 2012}
+  {\footnotesize
+    \begin{itemize}
+      \resitem{ Worked with Professor Sam King to design
+                     and implement an application framework for
+                     general purpose robots.  This involved developing
+                     an API to communicate with the robot via a web
+                     and android application.  Also wrote applications
+                     in python and C++.}
+      \resitem{ Presented a poster for
+                     the research at a research symposium in Siebel in
+                     Spring 2012.}
+    \end{itemize}
+  }
+\end{itemize}
+
+\resheading{Skills}
+\begin{itemize}
+\item
+  \resskill{Static And Dynamic Analysis}{IDAPro, OllyDBG, GDB, Wireshark}
+  \resskill{Vulnerability Discovery}{Fuzzer Development, Source Code
+    Auditing, Testing Framework Design}
+  \resskill{Malware Analysis}{Unpacking Techniques, Anti-debugging and
+  Anti-reversing removal}
+\item
+  \resskill{Languages}{C, C++, Python, Java, x86, MIPS, OCaml}
+  \resskill{Libraries}{openCV, ROS (Robot Operating System), Android}
+  \resskill{Misc.}{svn, git, Emacs, Eclipse, Windows, Linux (Ubuntu, Arch)}
+\end{itemize}
+
+\resheading{Projects}
+\begin{itemize}
+\item
+  \resexperience{Automated Malware Analysis}{Class Project}{}{Spring 2013}
+  {\footnotesize
+    \begin{itemize}
+      \resitem{Set up a Virtual Machine that accepted binaries from a web
+  interface.  I then used YARA and CuckooSandbox to process the binary
+  and store the results in a database.  I worked with 3 other
+  students for a semester project in the Security Lab course.}
+    \end{itemize}
+  }
+\item
+  \resexperience{Boston Bombing Spam/Malware Prevention}{Freelance}{}{Spring 2013}
+  {\footnotesize
+    \begin{itemize}
+      \resitem{ Worked with John Bambenek to analyze a stream of spam related
+  to the Boston bombing, analyzed domain registrations, basic malware
+  reversing.}
+      \resitem{Thanked on isc.sans.org (SANS Internet Storm Center) and featured on WAND local news.}
+    \end{itemize}
+  }
+\item
+  \resexperience{Quality Evaluation of Obfuscation}{Class Project}{}{Spring 2013}
+  {\footnotesize
+    \begin{itemize}
+      \resitem{Attempted to develop a metric to allow for the development of
+  a framework for analyzing the relative strength of an obfuscation
+  routine.  I worked with one other student for a semester project in
+  the Network Security course.}
+      \resitem{Presented a poster at Siebel Center in Spring 2013.}
+    \end{itemize}
+  }
+\item
+  \resexperience{Malware Clustering Script}{Class Project}{}{Fall 2012}
+  {\footnotesize
+    \begin{itemize}
+      \resitem{ Developed a simple malware cluster script written in python using the
+  k-means algorithm.  This involved acquiring XML outputs from
+  CWSandbox and modeling a feature-set from the results.  I wrote this
+  as a final project for a statistics course.}
+    \end{itemize}
+  }
+\item
+  \resexperience{Security CTF Team Presenter}{ACM}{}{Fall 2012}
+  {\footnotesize
+    \begin{itemize}
+      \resitem{ Designed and presented a series of lectures on skills required to
+  participate in a Security CTF competition.}
+    \end{itemize}
+  }
+\item
+  \resexperience{Android Telemetry for a Vehicle}{EcoIllini}{}{Fall 2012 -
+    Spring 2013}
+  {\footnotesize
+    \begin{itemize}
+      \resitem{Developed an android application that communicated with an
+  Arduino device connected to a car engine.  This provided real-time
+  feedback on car speed, distance traveled, and time elapsed for the
+  Ecoillini Shell Marathon Car.}
+    \end{itemize}
+  }
+\end{itemize}
+
+\resheading{Activities}
+\begin{itemize}
+\item
+  \resskill{CSAW Security CTF 2012}{Placed 18th for qualifying teams
+    with the ACM Security CTF Team.}
+\item
+  \resskill{Ebay Hackathon 2013}{Best Use of API for visualization of
+    product sales.  I developed this with 3 team members.}
+\item
+  \resskill{IEEE Hackathon 2012}{Using OpenCV and an OCR script,
+    developed an application that would read in a video feed from a
+    webcam and record the ID number from a Student ID.}
+\item
+  \resskill{ACM Special Interest Group For Security}{Member since
+    Spring 2012, Chair since Fall 2012.}
+\item
+  \resskill{Undergraduate Computer Science Research Symposium
+    2012}{Presented a poster on my research with Sam King.}
+\item
+  \resskill{Illinois Technology Association Fall
+    Challenge}{Participated in the finals of this software development
+    competition.}
+\end{itemize}
+
+\end{document}
