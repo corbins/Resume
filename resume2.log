@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=pdflatex 2013.3.14)  9 SEP 2013 10:12
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=pdflatex 2013.3.14)  9 SEP 2013 10:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -114,62 +114,59 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 66.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 66--72
+Overfull \hbox (6.0pt too wide) in paragraph at lines 66--67
  [][][][][][][] 
  []
 
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 73--74
- [][][][][][][] 
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 76.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 69.
 (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 69.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 82--83
+ [][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 137--138
+ [][][][][][][] 
+ []
+
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 146.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 89--90
- [][][][][][][] 
- []
-
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 144--145
- [][][][][][][] 
- []
-
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 158--159
+Overfull \hbox (6.0pt too wide) in paragraph at lines 151--152
  [][][][][][][] 
  []
 
 [1
 
 {/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 222--223
+Overfull \hbox (6.0pt too wide) in paragraph at lines 215--216
  [][][][][][][] 
  []
 
 [2] (./resume2.aux) ) 
 Here is how much of TeX's memory you used:
  1278 strings out of 493488
- 17356 string characters out of 3146892
- 78510 words of memory out of 3000000
- 4610 multiletter control sequences out of 15000+200000
- 10761 words of font info for 41 fonts, out of 3000000 for 9000
+ 17372 string characters out of 3146892
+ 77510 words of memory out of 3000000
+ 4611 multiletter control sequences out of 15000+200000
+ 10762 words of font info for 41 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 22i,9n,21p,219b,249s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 22i,9n,21p,219b,255s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
-12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/sh
-are/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmti9.pfb>
-Output written on resume2.pdf (2 pages, 87828 bytes).
+10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on resume2.pdf (2 pages, 100710 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 39 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
